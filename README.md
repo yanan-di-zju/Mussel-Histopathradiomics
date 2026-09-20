@@ -8,10 +8,10 @@ Mussels are widely used as model organisms for marine environmental monitoring. 
 
 ## Features
 
-- **Two tissue targets**: gill filament epithelium (`G`) and digestive gland lumens (`DG`)
-- **Four encoder backbones** for comparison: plain U-Net, VGG16, ResNet34 (default), EfficientNet-B0
+- **Two tissue targets**: gill filament epithelium (`G`) and digestive tubule wall area (`DG`)
+- **U-Net variants evaluated with the baseline encoder configuration and VGG16, ResNet34, or EfficientNetB0 backbones
 - **512×512 RGB patches** with binary segmentation masks, train/test split
-- **Standard medical metrics**: Dice, Jaccard/IoU, HD95, ASD (via `medpy`)
+- **Reported evaluation metrics: Accuracy, Dice, Jaccard/IoU, and HD95 (via `medpy`)
 - **TensorBoard** logging and best-weight checkpointing
 
 ## Dataset (MMHID)
